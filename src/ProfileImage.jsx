@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import profilePic from "../src/assets/mee.jpeg"
 
 
 export default function ProfileImage({ position, isMobile = false }) {
@@ -142,7 +143,7 @@ export default function ProfileImage({ position, isMobile = false }) {
         />
 
         <img
-          src="src\assets\mee.jpeg"
+          src={profilePic}
           alt="Tamara"
           style={{
             width: "100%",

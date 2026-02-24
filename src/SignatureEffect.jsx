@@ -81,44 +81,42 @@ export default function SignatureEffect({ show = true, fadeOut = false }) {
         preserveAspectRatio="xMidYMid meet"
         className="signature-svg"
       >
-        <defs>
-          <filter id="glowSignature">
-            
-            <feGaussianBlur stdDeviation="8" result="coloredBlur" />
-            <feMerge>
-              <feMergeNode in="coloredBlur" />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
-          </filter>
-          <linearGradient id="signatureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-           
-            <stop offset="0%">
-              <animate
-                attributeName="stop-color"
-                values="#c084fc;#60a5fa;#1e3a8a;#c084fc"
-                dur="6s"
-                repeatCount="indefinite"
-              />
-            </stop>
-            <stop offset="40%">
-              <animate
-                attributeName="stop-color"
-                values="#60a5fa;#1e3a8a;#c084fc;#60a5fa"
-                dur="6s"
-                repeatCount="indefinite"
-              />
-            </stop>
-            <stop offset="100%">
-              <animate
-                attributeName="stop-color"
-                values="#1e3a8a;#c084fc;#60a5fa;#1e3a8a"
-                dur="6s"
-                repeatCount="indefinite"
-              />
-            </stop>
-            
-          </linearGradient>
-        </defs>
+       <defs>
+  <filter id="glowSignature">
+    <feGaussianBlur stdDeviation="8" result="coloredBlur" />
+    <feMerge>
+      <feMergeNode in="coloredBlur" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+  
+  <linearGradient id="signatureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%">
+    <animate
+      attributeName="stop-color"
+      values="#c084fc;#60a5fa;#1e3a8a;#c084fc"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+  <stop offset="50%">
+    <animate
+      attributeName="stop-color"
+      values="#60a5fa;#1e3a8a;#c084fc;#60a5fa"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+  <stop offset="100%">
+    <animate
+      attributeName="stop-color"
+      values="#1e3a8a;#c084fc;#60a5fa;#1e3a8a"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+</linearGradient>
+</defs>
 
        
         <text
