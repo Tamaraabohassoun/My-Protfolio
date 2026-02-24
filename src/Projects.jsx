@@ -158,7 +158,7 @@ const Projects = () => {
       id: 1,
       name: 'TravelScape',
       image: travelScape,
-      link: '#',
+      link: 'https://travelscape-0lov.onrender.com',
       hoverColor: 'rgba(165, 94, 234, 0.9)',
     },
     {

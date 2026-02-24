@@ -85,19 +85,13 @@ const Services = () => {
           </span>
         </h2>
 
-        {/* الأعمدة المتجاوبة: 
-            - افتراضي: عمود واحد 
-            - من 320px: عمودين 
-            - من 640px: عمودين 
-            - من 768px: 3 أعمدة 
-            - من 1024px: 4 أعمدة 
-        */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10! justify-items-center">
           {services.map((service) => (
             <div
               key={service.id}
               className="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 hover:scale-105 border border-white/10 hover:border-[#a55eea] w-full max-w-[320px] lg:max-w-[280px]"
-              style={{ height: '380px' }} // تم تقليل الارتفاع قليلاً ليتناسب مع الشاشات الصغيرة جداً
+              style={{ height: '380px' }} 
             >
               <img
                 src={service.image}

@@ -7,7 +7,7 @@ export default function StarBackground() {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    // دالة لضبط حجم الـ canvas
+    
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -134,7 +134,7 @@ export default function StarBackground() {
 
     animate();
 
-    // إضافة event listener للـ resize
+    
     window.addEventListener('resize', resizeCanvas);
 
     return () => {

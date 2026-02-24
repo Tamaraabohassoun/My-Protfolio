@@ -14,7 +14,6 @@ export default function Hero() {
   const [showHeader, setShowHeader] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Check if screen is mobile
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
@@ -28,16 +27,16 @@ export default function Hero() {
 
   useEffect(() => {
     const signatureDuration = 8000;
-    const fadeOutDuration = 800; // مدة الـ fade out
-    const waitAfterFadeOut = 200; // انتظار قصير بعد الـ fade out
+    const fadeOutDuration = 800; 
+    const waitAfterFadeOut = 200; 
     const centerHold = 400;
     
-    // بدء الـ fade out
+   
     const fadeTimer = setTimeout(() => {
       setFadeOutSignature(true);
     }, signatureDuration);
     
-    // إخفاء الـ signature وإظهار العناصر الأخرى
+    
     const timer1 = setTimeout(() => {
       setShowSignature(false);
       setShowProfile(true);
@@ -77,13 +76,12 @@ export default function Hero() {
         {showHeader && <Header />}
         <SignatureEffect show={showSignature} fadeOut={fadeOutSignature} />
         
-        {/* Desktop Layout */}
+        
         <div className="hidden md:block">
           {showProfile && <ProfileImage position={imagePosition} isMobile={false} />}
           {showLeftText && <LeftText isMobile={false} />}
         </div>
-        
-        {/* Mobile Layout */}
+       
         <div className="block md:hidden">
           {showProfile && showLeftText && (
             <div className="flex flex-col items-center justify-center min-h-screen gap-8 pt-10! px-4">

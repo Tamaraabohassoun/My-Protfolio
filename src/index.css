@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-/* إضافة offset للتنقل السلس مع Header الثابت */
+
 html {
   scroll-padding-top: 100px;
 }
@@ -39,83 +39,3 @@ body{
 }
 
 
-/* body{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-/* :root{
-  --dark-amethyst: #10002bff;
---dark-amethyst-2: #240046ff;
---indigo-ink: #3c096cff;
---indigo-velvet: #5a189aff;
---royal-violet: #7b2cbfff;
---lavender-purple: #9d4eddff;
---mauve-magic: #c77dffff;
---mauve: #e0aaffff;
-
-},
-:root{
-  --ink-black: #0d1b2aff;
-  --prussian-blue: #1b263bff;
-  --dusk-blue: #415a77ff;
-  --dusty-denim: #778da9ff;
-  --alabaster-grey: #e0e1ddff;
-}
-:root{
-  --bright-snow: #f8f9faff;
---platinum: #e9ecefff;
---alabaster-grey: #dee2e6ff;
---pale-slate: #ced4daff;
---pale-slate-2: #adb5bdff;
---slate-grey: #6c757dff;
---iron-grey: #495057ff;
---gunmetal: #343a40ff;
---carbon-black: #212529ff;
-},
-:root{
-  --stormy-teal: #006466ff;
---dark-teal: #065a60ff;
---dark-teal-2: #0b525bff;
---dark-teal-3: #144552ff;
---charcoal-blue: #1b3a4bff;
---deep-space-blue: #212f45ff;
---space-indigo: #272640ff;
---midnight-violet: #312244ff;
---midnight-violet-2: #3e1f47ff;
---deep-purple: #4d194dff;
-},
-:root{
-  --ink-black: #00111cff;
---ink-black-2: #001523ff;
---ink-black-3: #001a2cff;
---deep-space-blue: #002137ff;
---deep-space-blue-2: #00253eff;
---deep-space-blue-3: #002945ff;
---deep-space-blue-4: #002e4eff;
---deep-space-blue-5: #003356ff;
---yale-blue: #003a61ff;
---yale-blue-2: #00406cff;
-},
-:root{
-  --dark-emerald: #066839ff;
---emerald-depths: #0a5c36ff;
---emerald-depths-2: #0f5132ff;
---deep-forest: #14452fff;
---evergreen: #18392bff;
---jet-black: #1d2e28ff;
---carbon-black: #212224ff;
-},
-:root{
-  --ink-black: #000e14ff;
---ink-black-2: #00111aff;
---ink-black-3: #00141fff;
---ink-black-4: #001824ff;
---ink-black-5: #001b29ff;
---deep-space-blue: #002233ff;
---deep-space-blue-2: #00293dff;
---deep-space-blue-3: #003047ff;
---deep-space-blue-4: #003652ff;
---yale-blue: #003d5cff;
-} */

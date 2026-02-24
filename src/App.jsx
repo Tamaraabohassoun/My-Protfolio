@@ -1,26 +1,9 @@
-// import React, { useEffect } from 'react'
-// import AOS from "aos";
-// import "aos/dist/aos.css";
 
-// const App = () => {
-//   useEffect(()=>{
-//     AOS.init({ 
-//       duration:1000,
-//       once:true,
-//     })
-//   },[]);
-//   return (
-//     <div>App</div>
-//   )
-// }
-
-// export default App
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// استيراد جميع الأقسام
 import Hero from './Hero';
 import About from './About';
 import Projects from './Projects';
@@ -29,7 +12,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import NotFound from './NotFound';
 
-// مكون الصفحة الرئيسية (يجمع كل الأقسام)
+
 const HomePage = () => {
   return (
     <>

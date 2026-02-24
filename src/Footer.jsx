@@ -5,18 +5,14 @@ const Footer = () => {
 
   return (
     <footer className="relative w-full py-10!  mt-8 overflow-hidden">
-      {/* خلفية زخرفية خفيفة */}
-      {/* <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute w-64 h-64  blur-3xl -top-20 -left-20"></div>
-        <div className="absolute w-96 h-96   blur-3xl -bottom-32 -right-20"></div>
-      </div> */}
+     
 
-      {/* بوردر نيوني متحرك في الأعلى */}
+     
 <div className="absolute top-0 left-0 w-full h-[1px] overflow-hidden">
         <div className="animate-neon-wave w-[200%] h-full"></div>
       </div>
       
-      {/* الـ footer نفسه */}
+     
       <div className="relative z-10 w-full h-full mx-auto">
         <div className="relative backdrop-blur-sm bg-transparent text-center text-white font-light tracking-wide">
           <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl ">
