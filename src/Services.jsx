@@ -3,7 +3,7 @@ import { FiPenTool, FiCode, FiSmartphone, FiTrendingUp } from 'react-icons/fi';
 import UI from "../src/assets/UI.jpeg";
 import Web from "../src/assets/WEB.jpeg";
 import Mobile from "../src/assets/MOBILE.jpeg";
-import SEO from "../src/assets/Seo.jpeg";
+import SEO from "../src/assets/SEO.jpeg";
 
 const Services = () => {
   const services = [
