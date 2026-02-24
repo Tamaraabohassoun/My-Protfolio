@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 import UI from "../src/assets/UI.jpeg";
 import Web from "../src/assets/WEB.jpeg";
 import Mobile from "../src/assets/MOBILE.jpeg";
-import SEO from "../src/assets/Seo.jpeg";
+import SEO from "../src/assets/SEO.jpeg";
 
 
 const About = () => {
@@ -90,7 +90,7 @@ const About = () => {
     };
   }, []);
 
-  const gradientHi = 'linear-gradient(45deg, #8b5cf6, #3b82f6, #1e3a8a)';
+  // const gradientHi = 'linear-gradient(45deg, #8b5cf6, #3b82f6, #1e3a8a)';
   const gradientTamara = 'linear-gradient(45deg, #c084fc, #60a5fa)';
   const shadowHi = '0 0 30px #8b5cf6';
 
@@ -122,7 +122,7 @@ const About = () => {
       <div className="relative z-10 center-container grid md:grid-cols-2 gap-12 items-center justify-center px-4 md:px-6">
         <div className="flex flex-col gap-4">
           <h2 className="text-4xl md:text-5xl font-bold text-left pt-5! md:pt-0" style={{ position: 'relative' }}>
-            <span className="bg-gradient-to-r from-[#8b5cf6] via-[#c084fc] to-[#3b82f6] bg-clip-text text-transparent">
+            <span className="bg-liner-to-r from-[#8b5cf6] via-[#c084fc] to-[#3b82f6] bg-clip-text text-transparent">
               About Me
             </span>
           </h2>
