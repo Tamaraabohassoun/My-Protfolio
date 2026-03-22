@@ -1,6 +1,8 @@
 import travelScape from "../src/assets/travelScape.webp";
 import ZenDigital from "../src/assets/zenDigital.jpg"
 import ecobuild from "../src/assets/ecobuild.jfif";
+import mappel from "../src/assets/mappel.png"
+import artivo from "../src/assets/artivo.webp"
 
 import React, { useRef } from 'react';
 import { Swiper, SwiperSlide, useSwiperSlide } from 'swiper/react';
@@ -156,20 +158,34 @@ const Projects = () => {
   const originalProjects = [
     {
       id: 1,
+      name: 'Mapple',
+      image: mappel,
+      link: 'https://mapple-a5uo.onrender.com',
+      hoverColor: 'rgba(165, 94, 234, 0.9)',
+    },
+    {
+      id: 2,
+      name: 'Artivo',
+      image: artivo,
+      link: 'https://artivo-k134.onrender.com',
+      hoverColor: 'rgba(165, 94, 234, 0.9)',
+    },
+    {
+      id: 3,
       name: 'TravelScape',
       image: travelScape,
       link: 'https://travelscape-0lov.onrender.com',
       hoverColor: 'rgba(165, 94, 234, 0.9)',
     },
     {
-      id: 2,
+      id: 4,
       name: 'ZenDigital',
       image: ZenDigital,
       link: 'https://zendigital-fx0r.onrender.com',
       hoverColor: 'rgba(0, 255, 255, 0.8)',
     },
     {
-      id: 3,
+      id: 5,
       name: 'EcoBuild',
       image: ecobuild,
       link: 'https://ecobuild-tnaj.onrender.com',
